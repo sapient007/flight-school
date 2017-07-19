@@ -5,11 +5,10 @@ resources:
     uri: https://github.com/sapient007/flight-school
     branch: master
 
-
 jobs:
 - name: test-app
   plan:
   - get: flight-school
     trigger: true
   - task: tests
-    file: build.yml
+    file: flight-school/build.yml

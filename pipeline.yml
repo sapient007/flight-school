@@ -5,6 +5,7 @@ resources:
     uri: https://github.com/sapient007/flight-school
     branch: master
 
+
 jobs:
 - name: test-app
   plan:

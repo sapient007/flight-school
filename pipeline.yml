@@ -13,6 +13,7 @@ resources:
     password: testing00
     organization: bayo
     space: demo
+    skip_cert_check: true
 
 jobs:
 - name: test-app
